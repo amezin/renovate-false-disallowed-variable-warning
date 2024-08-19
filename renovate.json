@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["pyyaml"],
+      "prBodyDefinitions": {
+        "Issue": "123"
+      },
+      "commitMessagePrefix": "{{#with prBodyDefinitions}}{{{Issue}}}{{/with}}"
+    }
+  ]
+}
