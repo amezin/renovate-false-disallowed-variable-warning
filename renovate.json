@@ -10,5 +10,11 @@
       },
       "commitMessagePrefix": "{{#with prBodyDefinitions}}{{{Issue}}}{{/with}}"
     }
+  ],
+  "logLevelRemap": [
+    {
+      "matchMessage": "Disallowed variable name in template",
+      "newLogLevel": "warn"
+    }
   ]
 }
